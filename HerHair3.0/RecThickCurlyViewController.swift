@@ -15,6 +15,8 @@ class RecThickCurlyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    
     @IBAction func SheaAmazonLink(_ sender: Any) {
         
         UIApplication.shared.open(URL(string: "https://www.amazon.com/Moisture-Coconut-Hibiscus-Shine-Combination/dp/B0713PYLJS/ref=sr_1_2_sspa?crid=Z9Z7A8TL7RHQ&keywords=shampoo+for+curly+hair&qid=1677387778&s=beauty&sprefix=shampoo+for+curly")! as URL, options: [:], completionHandler: nil)
