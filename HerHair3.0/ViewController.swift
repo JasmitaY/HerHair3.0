@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func ButtonNextPG(_ sender: Any) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "UserInputViewController") as! UserInputViewController
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 

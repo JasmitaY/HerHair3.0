@@ -16,6 +16,7 @@
 		E1B2704C29ABA80B00314FE2 /* HerHair3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2704B29ABA80B00314FE2 /* HerHair3_0Tests.swift */; };
 		E1B2705629ABA80B00314FE2 /* HerHair3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2705529ABA80B00314FE2 /* HerHair3_0UITests.swift */; };
 		E1B2705829ABA80B00314FE2 /* HerHair3_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2705729ABA80B00314FE2 /* HerHair3_0UITestsLaunchTests.swift */; };
+		E1B2706729ABB83700314FE2 /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2706629ABB83700314FE2 /* UserInputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E1B2705129ABA80B00314FE2 /* HerHair3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerHair3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B2705529ABA80B00314FE2 /* HerHair3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerHair3_0UITests.swift; sourceTree = "<group>"; };
 		E1B2705729ABA80B00314FE2 /* HerHair3_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerHair3_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1B2706629ABB83700314FE2 /* UserInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E1B2703429ABA80A00314FE2 /* AppDelegate.swift */,
 				E1B2703629ABA80A00314FE2 /* SceneDelegate.swift */,
 				E1B2703829ABA80A00314FE2 /* ViewController.swift */,
+				E1B2706629ABB83700314FE2 /* UserInputViewController.swift */,
 				E1B2703A29ABA80A00314FE2 /* Main.storyboard */,
 				E1B2703D29ABA80B00314FE2 /* Assets.xcassets */,
 				E1B2703F29ABA80B00314FE2 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				E1B2703929ABA80A00314FE2 /* ViewController.swift in Sources */,
 				E1B2703529ABA80A00314FE2 /* AppDelegate.swift in Sources */,
+				E1B2706729ABB83700314FE2 /* UserInputViewController.swift in Sources */,
 				E1B2703729ABA80A00314FE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
