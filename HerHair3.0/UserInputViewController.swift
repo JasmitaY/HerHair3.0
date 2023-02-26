@@ -16,4 +16,10 @@ class UserInputViewController: UIViewController {
     }
     
 
+    @IBAction func EnterButtonRecCurly(_ sender: Any) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "RecThickCurlyViewController") as! RecThickCurlyViewController
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
