@@ -242,6 +242,18 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="Exitbutton:" destination="GI4-Eg-CRy" eventType="touchUpInside" id="Qrc-Bu-3oe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ky8-ey-zLc" userLabel="LinkShea">
+                                <rect key="frame" x="-9" y="233" width="181" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="                                    "/>
+                                <connections>
+                                    <action selector="SheaAmazonLink:" destination="GI4-Eg-CRy" eventType="touchUpInside" id="C5B-z6-jfO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="S1g-m7-OrP"/>
